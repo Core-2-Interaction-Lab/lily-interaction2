@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-family: 'Inter Tight', sans-serif;
+    color:  rgb(74, 41, 29); /* Change the color of the link text */
+    text-decoration: none; /* Remove the underline */
+    font-size: 40px; 
+    text-align: center;
+  }
+  
+  .grid-item {
+    border: 3px solid black;
+    padding: 20px;
+  }
+  
+  h6{
+    text-align: center;
+  }

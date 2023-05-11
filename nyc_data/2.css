@@ -1,0 +1,84 @@
+
+/* Set the transition duration and timing function */
+body {
+    transition: transform 0.5s ease;
+  }
+  
+  /* Slide the new page in from the right */
+  body.new-page {
+    transform: translateX(100%);
+  }
+  
+  h1 a {
+    font-family: 'Inter Tight', sans-serif;
+    color: blanchedalmond; /* Change the color of the link text */
+    text-decoration: none; /* Remove the underline */
+    font-size: 100px; 
+    text-align: center;
+    border: 4px solid blanchedalmond;
+    padding: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  h2 a {
+    font-family: 'Inter Tight', sans-serif;
+    color: blanchedalmond; /* Change the color of the link text */
+    text-decoration: none; /* Remove the underline */
+    font-size: 100px; 
+    text-align: center;
+    border: 4px solid blanchedalmond;
+    padding: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+  h3 a {
+    font-family: 'Inter Tight', sans-serif;
+    color:  blanchedalmond; /* Change the color of the link text */
+    text-decoration: none; /* Remove the underline */
+    font-size: 100px; 
+    text-align: center;
+    border: 4px solid blanchedalmond;
+    padding: -5px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+  h4 a {
+    font-family: 'Inter Tight', sans-serif;
+    color:  blanchedalmond; /* Change the color of the link text */
+    text-decoration: none; /* Remove the underline */
+    font-size: 100px; 
+    text-align: center;
+    border: 4px solid blanchedalmond;
+    padding: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+  h5 a {
+    font-family: 'Inter Tight', sans-serif;
+    color: blanchedalmond; /* Change the color of the link text */
+    text-decoration: none; /* Remove the underline */
+    font-size: 100px; 
+    text-align: center;
+    border: 4px solid blanchedalmond;
+    padding: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  h6 {
+    text-align: center;
+   
+  }
+
+  
+
+

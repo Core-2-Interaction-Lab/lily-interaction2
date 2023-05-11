@@ -1,0 +1,60 @@
+.container {
+
+  }
+  
+  img {
+    margin-right: auto;
+    margin-right: auto;
+    display: block;
+    margin: 0 auto;
+    
+  }
+  .smaller {
+    width: 550px;
+    height: 550px;
+  }
+  .link {
+    display: flex;
+    flex-direction: column;
+    flex:wrap;
+    color: black;
+    text-decoration: none;
+}
+  
+  img {
+    margin-top: 10%;
+    margin-right: 20%;
+  opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  img:hover {
+    opacity: 1;
+  }
+
+  .container {
+    text-align: center;
+    position: relative;
+  }
+  .story {
+    width: 15vw;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    align-self:center;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 20px;
+            color: black;
+            text-decoration: none;
+            border: 1px solid blue; padding: 10px;
+          
+   }
+
+   .test{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    height:100vh;
+   }

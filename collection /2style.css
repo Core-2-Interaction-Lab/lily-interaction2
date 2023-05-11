@@ -1,0 +1,14 @@
+.link {
+    display: flex;
+    flex-direction: column;
+    flex:wrap;
+    color:black;
+    text-decoration: none;
+}
+
+@keyframes move {
+    from { transform: translateY(0); }
+    to { transform: translateY(350px); }
+    from {top: 0;}
+    to {bottom: 30;}
+  }

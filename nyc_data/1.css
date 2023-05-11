@@ -1,0 +1,38 @@
+
+/* Set the transition duration and timing function */
+body {
+    transition: transform 0.5s ease;
+  }
+  
+  /* Slide the new page in from the right */
+  body.new-page {
+    transform: translateX(100%);
+  }
+  
+  h1 a {
+    font-family: 'Inter Tight', sans-serif;
+    color:  rgb(74, 41, 29); /* Change the color of the link text */
+    text-decoration: none; /* Remove the underline */
+    font-size: 150px; 
+    text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  }
+ 
+  h2 a {
+    font-family: 'Inter Tight', sans-serif;
+    color:  rgb(74, 41, 29); /* Change the color of the link text */
+    text-decoration: none; /* Remove the underline */
+    font-size: 40px; 
+    text-align:center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  }
+ 
+  
+  
+   
+ 

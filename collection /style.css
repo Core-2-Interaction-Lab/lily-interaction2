@@ -1,0 +1,68 @@
+.archived-messages {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 65px;
+            color: blue;
+            text-decoration: none;
+            border: 1px solid black; padding: 25px;
+            border-radius: 25%;
+}
+
+.typing-animation {
+  font-size: 25px;
+} 
+
+.text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 65px;
+  text-align: center;
+  display: flex; justify-content: center; align-items: center; 
+  height: 100vh; 
+  border: 1px solid black; padding: 5px;
+}
+
+.button {
+  text-align: center;
+  display: flex; justify-content: center; align-items: center; 
+  height: 100vh; 
+  border: 1px solid black; padding: 5px;
+}
+
+@keyframes move {
+  from { transform: translateY(0); }
+  to { transform: translateY(350px); }
+  from {top: 0;}
+  to {bottom: 30;}
+}
+
+.circle {
+  /* circle styles */
+  animation: move 2s infinite alternate;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.circle2 {
+  /* circle styles */
+  animation: move 2s infinite alternate;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  @keyframes move {
+    from { transform: translateY(0); }
+    to { transform: translateY(550px); }
+    from {top: 0;}
+    to {bottom: 30;}
+  }
+}
+.circle3 {
+  /* circle styles */
+  animation: move 2s infinite alternate;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+    
+    
+
+    

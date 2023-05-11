@@ -1,0 +1,15 @@
+img {
+    margin-right: auto;
+    margin: 0 auto;
+    width: 1400px;
+    height: 960px;
+    
+  }
+  img {
+    opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+    
+    img:hover {
+      opacity: 1;
+    }
